@@ -20,6 +20,8 @@ class HelloWorld : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_helloworld)
 
+        /*intent.extras.getString("text") -> to get the text passed from the previous activity*/
+
         textMsg.setText(intent.extras.getString("text"))
 
     }
