@@ -4,10 +4,8 @@ import android.content.Context
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_helloworld.*
-import kotlinx.android.synthetic.main.activity_main.*
-import java.security.AccessControlContext
+
 
 class HelloWorld : AppCompatActivity() {
     companion object {
