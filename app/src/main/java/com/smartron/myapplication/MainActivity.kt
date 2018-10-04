@@ -14,8 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         nextButton.setOnClickListener {
 
-            /* val (parameter type "val" or "var") -> it will decide whether that textView is static or dynamic
-            *  message(variable name)
+            /* val (variable declaration "val(read-only)" or "var(mutable)")
              * String (Data type : it may be String, int, float, double)
              * text (represents getText() or setText()*/
 
